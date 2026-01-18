@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Edition</title>
+    <link rel="stylesheet" href="css/editor.css"/>
+    <title>Code Editor</title>
 </head>
 <body>
     <header>
@@ -72,10 +73,33 @@
                             
                         </iframe>
                     </div>
+
                 </div>
             </div>
 
         </section>
+        <aside class="stack panel card" >
+            <div class="out" id="output" aria-live="polite">
+                <div class="row">
+                    <button class="btn warn" id="runTests">Run with Tests</button>
+                    <button class="btn secondary" id="clearLogs"> Clear Logs</button>
+                </div>
+                <h3>Notes</h3>
+                <ul class="muted">
+                    <li>Everything runs inside the browser is in the sandbox</li>
+                    <li> You can save the work as json file and restore it later on</li>
+
+                </ul>
+
+            </div>
+        </aside>
+        <footer>
+
+        
     </main>
+    <div class="footer">
+        <h4> Copyrights &copy; reserved 2026</h4>
+    </div>
+    <script src="js/editor.js"></script>
 </body>
 </html>
